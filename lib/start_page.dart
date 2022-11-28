@@ -46,7 +46,7 @@ class StartPage extends StatelessWidget {
               width: 150,
               child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurple[200], foregroundColor: Colors.white),
+                      foregroundColor: Colors.deepPurple[200], backgroundColor: Colors.white),
                   onPressed: startQuiz,
                   child: const Text(
                     "Start",

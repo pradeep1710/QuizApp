@@ -23,8 +23,8 @@ class Option extends StatelessWidget {
               elevation: 10,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
-              foregroundColor: Colors.white,
-              backgroundColor: Colors.deepPurple[200],
+              backgroundColor: Colors.white,
+              foregroundColor: Colors.deepPurple[200],
               textStyle:
                   const TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
           onPressed: () {

@@ -30,6 +30,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter_native_splash: ^2.2.16
+  flutter_launcher_icons: ^0.11.0
   flutter:
     sdk: flutter
 
@@ -41,7 +42,24 @@ dependencies:
 flutter_native_splash:
   color: "#d1c4e9"
   image: images/splashicon.png
-  
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "images/icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "images/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "images/icon.png"
 
 dev_dependencies:
   flutter_test:
